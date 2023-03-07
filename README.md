@@ -13,7 +13,7 @@ Add this to your `.pre-commit-config.yaml`:
 
 ```yaml
 - repo: https://github.com/matchory/pre-commit-laravel
-  rev: v1.0.0
+  rev: v1.0.1
   hooks:
     - id: laravel-pint
 ```
@@ -21,7 +21,7 @@ Add this to your `.pre-commit-config.yaml`:
 Or, to disable automatic fixing:
 ```yaml
 - repo: https://github.com/matchory/pre-commit-laravel
-  rev: v1.0.0
+  rev: v1.0.1
   hooks:
     - id: laravel-pint
       args: ["--test"]
@@ -32,7 +32,7 @@ Add this to your `.pre-commit-config.yaml`:
 
 ```yaml
 - repo: https://github.com/matchory/pre-commit-laravel
-  rev: v1.0.0
+  rev: v1.0.1
   hooks:
     - id: laravel-tests
 ```
@@ -40,7 +40,7 @@ Add this to your `.pre-commit-config.yaml`:
 Or, to enable parallel testing:
 ```yaml
 - repo: https://github.com/matchory/pre-commit-laravel
-  rev: v1.0.0
+  rev: v1.0.1
   hooks:
     - id: laravel-tests
       args: ["--parallel"]
