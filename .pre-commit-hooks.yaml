@@ -1,11 +1,3 @@
-- id: psalm
-  name: Laravel Pint
-  description: Run Pint to automatically fix the code style of your Laravel app.
-  entry: hooks/laravel-pint.sh
-  language: script
-  files: \.php$
-  pass_filenames: true
-
 - id: laravel-pint
   name: Laravel Pint
   description: Run Pint to automatically fix the code style of your Laravel app.
