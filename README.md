@@ -12,7 +12,7 @@ Usage
 Add this to your `.pre-commit-config.yaml`:
 
 ```yaml
-- repo: https://github.com/matchory/laravel-pre-commit
+- repo: https://github.com/matchory/pre-commit-laravel
   rev: v1.0.0
   hooks:
     - id: laravel-pint
@@ -20,7 +20,7 @@ Add this to your `.pre-commit-config.yaml`:
 
 Or, to disable automatic fixing:
 ```yaml
-- repo: https://github.com/matchory/laravel-pre-commit
+- repo: https://github.com/matchory/pre-commit-laravel
   rev: v1.0.0
   hooks:
     - id: laravel-pint
@@ -31,7 +31,7 @@ Or, to disable automatic fixing:
 Add this to your `.pre-commit-config.yaml`:
 
 ```yaml
-- repo: https://github.com/matchory/laravel-pre-commit
+- repo: https://github.com/matchory/pre-commit-laravel
   rev: v1.0.0
   hooks:
     - id: laravel-tests
@@ -39,7 +39,7 @@ Add this to your `.pre-commit-config.yaml`:
 
 Or, to enable parallel testing:
 ```yaml
-- repo: https://github.com/matchory/laravel-pre-commit
+- repo: https://github.com/matchory/pre-commit-laravel
   rev: v1.0.0
   hooks:
     - id: laravel-tests
